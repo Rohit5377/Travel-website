@@ -291,7 +291,7 @@ h1{
 
 .package .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
 }
 .package .box-container .box{
@@ -503,12 +503,6 @@ h1{
     padding: .5rem;
    
 }
-/* .swiper-wrapper{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
 .review .slide .stars i{
     font-size: 1.7rem;
     color: var(--main-color);
@@ -539,7 +533,7 @@ h1{
 
 /* ----------------------footer--------------------- */
 .footer{
-    background: url(footer.webp) no-repeat;
+    background: url(images/footer.webp) no-repeat;
     background-size: cover;
     background-position: center;
    
